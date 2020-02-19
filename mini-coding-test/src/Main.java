@@ -17,7 +17,7 @@ public class Main {
             List<String> list = Arrays.asList(systemin.split(" "));
             list.forEach(a -> {
                 if (isNumeric(a)) {
-                    if (Integer.valueOf(a) > -1 && Integer.valueOf(a) < 99) {
+                    if (Integer.valueOf(a) > -1 && Integer.valueOf(a) < 100) {
                         numList.add(a);
                     }
                 }
